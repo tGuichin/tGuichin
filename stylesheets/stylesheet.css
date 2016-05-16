@@ -13,7 +13,7 @@ P{
   font-size:12px;
 }
 body{
-  background:silver;
+  background:linear-gradient(-270deg,silver,white);
   left:50%;
   margin-right:-50%;
 }
