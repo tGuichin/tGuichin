@@ -8,7 +8,6 @@ div.outer{
 }
 body{
     background:linear-gradient(bottom,silver,white);
-    justify:center;
     font-family: Impact;
     position:relative;
     width:1024px;
