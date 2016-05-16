@@ -9,7 +9,7 @@ div.outer{
 body{
     background:linear-gradient(bottom,silver,white);
     font-family: Impact;
-    position:absolute;
+    position:relative;
     width:1024px;
     height:768px;
 }
