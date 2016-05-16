@@ -1,9 +1,8 @@
-
 P{
     font-size:12px;
 }
 div.outer{
-    display:flex;
+    /*display:flex;*/
     /*justify-content:center;
     align-items:center;*/
 }
