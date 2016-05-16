@@ -1,20 +1,17 @@
-html {
-    position: relative;
-    min-width: 1024px;
-    min-height: 768px;
-    height: 100%;
-}
+
 P{
-  font-size:12px;
+    font-size:12px;
+}
+div.outer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 body{
-  background:linear-gradient(to left,silver,white);
-  font-family: Impact;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  position:absolute;
-  width:1024px;
-  height:768px;
+    background:linear-gradient(to left,silver,white);
+    font-family: Impact;
+    position:absolute;
+    width:1024px;
+    height:768px;
 }
 
