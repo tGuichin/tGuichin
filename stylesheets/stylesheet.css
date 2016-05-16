@@ -2,12 +2,13 @@ P{
     font-size:12px;
 }
 div.outer{
+    background:linear-gradient(to bottom,silver,white);
     /*display:flex;*/
     /*justify-content:center;
     align-items:center;*/
 }
 body{
-    /*background:linear-gradient(to bottom,silver,white);*/
+    
     background:silver;
     font-family: Impact;
     position:relative;
