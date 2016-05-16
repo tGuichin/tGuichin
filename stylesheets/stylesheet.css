@@ -5,6 +5,7 @@ body{
     background:linear-gradient(to bottom,silver,white);
     font-family: Impact;
     position:relative;
+    margin:auto;
     width:1024px;
     height:768px;
 }
