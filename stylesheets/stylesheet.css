@@ -1,5 +1,15 @@
 div.header1{
-  background-color:teal;
+  background:teal;
   left: 50%;
+}
+
+div.pageTop{
+  background:teal;
+  left:50%;
+}
+
+P{
+  font-family: Impact;
+  font-size:12px;
 }
 
