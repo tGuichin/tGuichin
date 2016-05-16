@@ -4,8 +4,7 @@ P{
 body{
   background:linear-gradient(to left,silver,white);
   font-family: Impact;
-  margin-top:50%;
-  margin-left:50%;
+  margin:10%;
   position:absolute;
   width:1024px;
   height:768px;
