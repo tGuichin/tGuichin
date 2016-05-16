@@ -1,15 +1,20 @@
 div.header1{
-  background:teal;
+  background:gray;
   left: 50%;
 }
 
 div.pageTop{
-  background:teal;
+  background:gray;
   left:50%;
 }
 
 P{
   font-family: Impact;
   font-size:12px;
+}
+body{
+  background:silver;
+  left:50%;
+  margin-right:-50%;
 }
 
