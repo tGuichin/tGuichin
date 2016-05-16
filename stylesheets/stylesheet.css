@@ -7,7 +7,8 @@ div.outer{
     align-items:center;*/
 }
 body{
-    background:linear-gradient(to bottom,silver,white);
+    /*background:linear-gradient(to bottom,silver,white);*/
+    background:silver;
     font-family: Impact;
     position:relative;
     width:1024px;
