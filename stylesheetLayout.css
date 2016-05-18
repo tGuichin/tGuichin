@@ -45,7 +45,7 @@
     position: absolute;
     list-style: none;
     display: block;
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.1);
     -webkit-animation: square 20s infinite;
     animation: aniText 20s infinite;
     -webkit-transition-timing-function: linear;
@@ -63,8 +63,8 @@
     left: 40%;
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
-    -webkit-animation-duration: 17s;
-    animation-duration: 17s;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
 }
 
 .animatedText li:nth-child(3) {
@@ -73,8 +73,18 @@
     left: 60%;
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
-    -webkit-animation-duration: 13s;
-    animation-duration: 13s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+}
+
+.animatedText li:nth-child(4){
+ width:100px;
+ height:100px;
+ left:85%;
+ -webkit-animation-delay:3s;
+ animation-delay:3s;
+ -webkit-animation-duration:8s;
+ animation-duration:8s;
 }
 
 
