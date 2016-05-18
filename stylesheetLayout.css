@@ -46,7 +46,6 @@
        z-index:0;
        display:block;
        list-style:none;
-       
        font-size:20px;
        font-family:Impact;
       }
@@ -55,19 +54,19 @@
        height:80px;
        left:40%;
       }
-      /*.animatedText li:nth child(2){*/
-      /* width:100px;*/
-      /* height:100px;*/
-      /* left:50%;*/
-      /* animation-delay:2s;*/
-      /*}*/
-      /*.animatedText li:nth child(3){*/
-      /* width:100px;*/
-      /* height:100px;*/
-      /* left:100%;*/
-      /* animation-delay:5s;*/
-      /* animation-duration:20s;*/
-      /*}*/
+      .animatedText li:nth child(2){
+       width:100px;
+       height:100px;
+       left:50%;
+       animation-delay:2s;
+      }
+      .animatedText li:nth child(3){
+       width:100px;
+       height:100px;
+       left:100%;
+       animation-delay:5s;
+       animation-duration:20s;
+      }
       @-webkit-keyframes aniText{
        0%{
         opacity:0;
