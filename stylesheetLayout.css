@@ -68,14 +68,33 @@
       /* animation-delay:5s;*/
       /* animation-duration:20s;*/
       /*}*/
-      @keyframes aniText{
+      @-webkit-keyframes aniText{
        0%{
-        transform:translateY(1200px);
+        opacity:0;
+        -webkit-transform:translateY(1080px);
+        transform:translateY(1080px);
        }
        /*50%{*/
        /* transform:translateY(540px)rotate(420deg);*/
        /*}*/
        100%{
-        transform:translateY(0px)rotate(840deg);
+        opacity:1;
+        -webkit-transform:translateY(-100px)rotate(840deg);
+        transform:translateY(-100px)rotate(840deg);
+       }
+      }
+      @keyframes aniText{
+       0%{
+        opacity:0;
+        -webkit-transform:translateY(1080px);
+        transform:translateY(1080px);
+       }
+       /*50%{*/
+       /* transform:translateY(540px)rotate(420deg);*/
+       /*}*/
+       100%{
+        opacity:1;
+        -webkit-transform:translateY(-100px)rotate(840deg);
+        transform:translateY(-100px)rotate(840deg);
        }
       }
