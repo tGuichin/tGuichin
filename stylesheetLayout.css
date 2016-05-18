@@ -54,11 +54,13 @@
       .animatedText li:nth child(2){
        width:100px;
        height:100px;
+       left:50%;
        animation-delay:2s;
       }
       .animatedText li:nth child(3){
        width:100px;
        height:100px;
+       left:100%;
        animation-delay:5s;
        animation-duration:20s;
       }
