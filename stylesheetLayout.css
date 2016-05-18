@@ -32,7 +32,7 @@
        position:absolute;
        z-index:0;
        transform: translateZ(0);
-       animation: aniText 5s ease;
+       animation: aniText 5s infinite ease;
       }
       .animatedText li{
        position:absolute;
