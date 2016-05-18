@@ -46,8 +46,8 @@
     list-style: none;
     display: block;
     color:rgba(255,255,255,.3);
-    font-size:26px;
-    font-family:Impact;
+    font-size:10px;
+    font-family:Times;
     background-color: rgba(255, 255, 255, 0);
     -webkit-animation: square 15s infinite;
     animation: aniText 15s infinite;
@@ -97,8 +97,8 @@
         transform: translateY(1080px);
     }
     100% {
-        -webkit-transform: translateY(-100px) rotate(420deg);
-        transform: translateY(-100px) rotate(420deg);
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
     }
 }
 
@@ -108,7 +108,7 @@
         transform: translateY(1080px);
     }
     100% {
-        -webkit-transform: translateY(-100px) rotate(420deg);
-        transform: translateY(-100px) rotate(420deg);
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
     }
 }
