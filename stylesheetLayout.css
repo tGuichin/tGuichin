@@ -30,14 +30,13 @@
         color:white;
       }
       .animatedText{
-       width:10%;
-       height:10%;
+       width:100%;
+       height:100%;
        top:0px;
        left:500px;
        position:absolute;
        z-index:0;
        color:white;
-       background-color:rgba(255,255,255,0);
        transform: translateZ(0);
        animation: aniText 10s infinite;
       }
@@ -48,19 +47,24 @@
        list-style:none;
        font-size:20px;
        font-family:Impact;
+       background-color:rgba(255,255,255,0);
+       transition-timing-function:linear;
       }
       .animatedText li:nth child(1){
-       transform:translateX(200px);
+       width:100px;
+       width:100px;
+       left:20%;
       }
       .animatedText li:nth child(2){
        width:100px;
        height:100px;
        left:50%;
        animation-delay:2s;
+       animation-duration:20s;
       }
       .animatedText li:nth child(3){
-       width:100px;
-       height:100px;
+       width:80px;
+       height:80px;
        left:100%;
        animation-delay:5s;
        animation-duration:20s;
