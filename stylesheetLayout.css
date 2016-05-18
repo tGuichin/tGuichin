@@ -32,7 +32,7 @@
        position:absolute;
        z-index:0;
        transform: translateZ(0);
-       animation: aniText 5s infinite ease;
+       animation: aniText 10s infinite ease;
       }
       .animatedText li{
        position:absolute;
@@ -40,12 +40,12 @@
        display:block;
        list-style:none;
        background-color:rgba(0,0,0,0);
-       color:white;
+       color:rgba(255,255,255,.3);
        font-size:20px;
        font-family:Impact;
       }
       .animatedText li:nth child(1){
-       left:20%;
+       left:60%;
       }
       @keyframes aniText{
        0%{
