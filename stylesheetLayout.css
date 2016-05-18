@@ -45,14 +45,14 @@
        font-family:Impact;
       }
       .animatedText li:nth child(1){
-       left:500px;
-       /*margin-left:60%;*/
+       /*left:500px;*/
+       margin-left:60%;
       }
       @keyframes aniText{
        0%{
         transform:translateY(1080px);
        }
        100%{
-        transform:translateY(-100px)rotate(420deg);
+        transform:translateY(-100px)rotate(840deg);
        }
       }
