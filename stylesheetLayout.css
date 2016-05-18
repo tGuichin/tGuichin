@@ -26,3 +26,32 @@
       span{
         color:white;
       }
+      .animatedText{
+       top:0;
+       left:0;
+       position:absolute;
+       z-index:0;
+       transform: translateZ(0);
+       animation: aniText 20s ease;
+      }
+      .animatedText li{
+       position:absolute;
+       z-index:0;
+       display:block;
+       list-style:none;
+       background-color:rgba(0,0,0,0);
+       color:white;
+       font-size:20px;
+       font-family:Impact;
+      }
+      .animatedText li:nth child(1){
+       left:20%;
+      }
+      @keyframes aniText{
+       0%{
+        transform:translateY(1080px);
+       }
+       100%{
+        transform:translateY(-100px);
+       }
+      }
