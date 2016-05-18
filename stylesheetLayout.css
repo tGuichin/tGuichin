@@ -35,7 +35,7 @@
        position:absolute;
        z-index:0;
        transform: translateZ(0);
-       animation: aniText 10s infinite ease;
+       animation: aniText 10s infinite;
       }
       .animatedText li{
        position:absolute;
@@ -43,7 +43,6 @@
        display:block;
        list-style:none;
        background-color:rgba(255,255,255,1);
-       color:rgba(255,255,255,.3);
        font-size:20px;
        font-family:Impact;
       }
@@ -69,9 +68,9 @@
        0%{
         transform:translateY(1080px);
        }
-       50%{
-        transform:translateY(540px)rotate(420deg);
-       }
+       /*50%{*/
+       /* transform:translateY(540px)rotate(420deg);*/
+       /*}*/
        100%{
         transform:translateY(-100px)rotate(840deg);
        }
