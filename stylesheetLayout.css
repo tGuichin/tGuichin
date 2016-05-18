@@ -4,6 +4,8 @@
       body{
         background:linear-gradient(to bottom,#000000 0%,#1a1a1a 25%, #000000 50%, #1a1a1a 75%, #000000 100%);
         z-index:1;
+        overflow-x:hidden;
+        overflow-y:hidden;
       }
       #paragraph{
         color:white;
@@ -46,11 +48,11 @@
        font-size:20px;
        font-family:Impact;
       }
-      .animatedText li:nth child(1){
-       width:80px;
-       height:80px;
-       left:20%;
-      }
+      /*.animatedText li:nth child(1){*/
+      /* width:80px;*/
+      /* height:80px;*/
+      /* left:20%;*/
+      /*}*/
       /*.animatedText li:nth child(2){*/
       /* width:100px;*/
       /* height:100px;*/
