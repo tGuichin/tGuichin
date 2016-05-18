@@ -86,7 +86,7 @@
       }
       @keyframes aniText{
        0%{
-        opacity:0;
+        /*opacity:0;*/
         -webkit-transform:translateY(1080px);
         transform:translateY(1080px);
        }
@@ -94,7 +94,7 @@
        /* transform:translateY(540px)rotate(420deg);*/
        /*}*/
        100%{
-        opacity:1;
+        /*opacity:1;*/
         -webkit-transform:translateY(-100px)rotate(840deg);
         transform:translateY(-100px)rotate(840deg);
        }
