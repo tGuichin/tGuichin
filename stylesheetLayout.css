@@ -77,6 +77,6 @@
        /* transform:translateY(540px)rotate(420deg);*/
        /*}*/
        100%{
-        transform:translateY(-1080px);
+        transform:translateY(-1080px)rotate(840deg);
        }
       }
