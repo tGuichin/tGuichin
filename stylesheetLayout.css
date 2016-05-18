@@ -30,8 +30,8 @@
         color:white;
       }
       .animatedText{
-       width:100%;
-       height:100%;
+       width:10%;
+       height:10%;
        top:0;
        left:0;
        position:absolute;
@@ -54,6 +54,9 @@
        height:80px;
        margin:200px;
        left:40%;
+       align-content: center;
+       align-items: center;
+       align-self: center;
       }
       .animatedText li:nth child(2){
        width:100px;
