@@ -52,6 +52,7 @@
       .animatedText li:nth child(1){
        width:80px;
        height:80px;
+       margin:200px;
        left:40%;
       }
       .animatedText li:nth child(2){
