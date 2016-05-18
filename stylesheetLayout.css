@@ -37,7 +37,7 @@
        position:absolute;
        z-index:0;
        color:white;
-       background-color:rgba(255,255,255,.7);
+       background-color:rgba(255,255,255,0);
        transform: translateZ(0);
        animation: aniText 10s infinite;
       }
@@ -46,7 +46,7 @@
        z-index:0;
        display:block;
        list-style:none;
-       background-color:rgba(255,255,255,.7);
+       
        font-size:20px;
        font-family:Impact;
       }
