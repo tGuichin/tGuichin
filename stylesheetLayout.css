@@ -37,7 +37,6 @@
        position:absolute;
        z-index:0;
        color:white;
-       bottom:-100px;
        background-color:rgba(255,255,255,.7);
        transform: translateZ(0);
        animation: aniText 10s infinite;
@@ -71,12 +70,12 @@
       /*}*/
       @keyframes aniText{
        0%{
-        transform:translateY(0px);
+        transform:translateY(1200px);
        }
        /*50%{*/
        /* transform:translateY(540px)rotate(420deg);*/
        /*}*/
        100%{
-        transform:translateY(-1080px)rotate(840deg);
+        transform:translateY(0px)rotate(840deg);
        }
       }
