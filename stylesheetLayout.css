@@ -40,9 +40,11 @@
        color:white;
        transform: translateZ(0);
        animation: aniText 10s infinite;
-       background-color:rgba(255,255,255,0.7);
+       /*background-color:rgba(255,255,255,0.7);*/
       }
       .animatedText li{
+       width:100px;
+       height:100px;
        position:absolute;
        z-index:0;
        display:block;
