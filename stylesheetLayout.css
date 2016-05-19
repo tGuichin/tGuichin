@@ -58,12 +58,12 @@
 .animatedText li:nth-child(1) {
     width: 40px;
     height: 40px;
-    left: 20%;
+    left: 15%;
 }
 .animatedText li:nth-child(2) {
     width: 60px;
     height: 60px;
-    left: 40%;
+    left: 30%;
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
     -webkit-animation-duration: 15s;
@@ -73,7 +73,7 @@
 .animatedText li:nth-child(3) {
     width: 10px;
     height: 10px;
-    left: 60%;
+    left: 45%;
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
     -webkit-animation-duration: 10s;
@@ -83,13 +83,22 @@
 .animatedText li:nth-child(4){
  width:100px;
  height:100px;
- left:85%;
+ left:60%;
  -webkit-animation-delay:3s;
  animation-delay:3s;
  -webkit-animation-duration:8s;
  animation-duration:8s;
 }
-
+.animatedText li:nth-child(5){
+ animation-delay:2s;
+ animation-duration:22s;
+ left:75%;
+}
+.animatedText li:nth-child(6){
+ animation-delay:1s;
+ animation-duration:18s;
+ left:90%;
+}
 
 @-webkit-keyframes aniText {
     0% {
