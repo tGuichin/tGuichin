@@ -18,6 +18,9 @@
         color:white;
         font-family:Impact;
       }
+      #zindex{
+       z-index:2;
+      }
       hr{
         width:50%;
       }
