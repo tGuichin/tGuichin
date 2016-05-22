@@ -26,6 +26,9 @@
       span{
         color:white;
       }
+      .custom{
+       animation-fill-mode: none !important;
+      }
       .animatedText {
     position: absolute;
     top: 0;
