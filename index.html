@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body position="absolute">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <body position="absolute" z-index="1">
+    <nav class="navbar navbar-inverse navbar-fixed-top" z-index="1">
       <!--SITE NAV CONTAINER-->
-      <div class="container-fluid">
-        <div class="navbar-header">
+      <div class="container-fluid" z-index="1">
+        <div class="navbar-header"z-index="1">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -26,7 +26,7 @@
           <a href="#home" class="navbar-brand">TODOR GUICHIN</a>
         </div>
         <!--MENU ITEMS HERE-->
-        <div class="collapse navbar-collapse" id="mainNavBar">
+        <div class="collapse navbar-collapse" id="mainNavBar" z-index="1">
           <ul class="nav navbar-nav">
             <li><a href="#projects">Projects</a></li>
             <li><a href="#employment">Employment</a></li>
@@ -44,17 +44,17 @@
     <a name="home"></a>
     <br><br><br><br>
      <!--EDUCATION-->
-    <div class="container-fluid" align="center" z-index="0">
+    <div class="container-fluid" align="center" z-index="1">
       <h1 id="headingOne">Education</h1>
       <p id="paragraph">Graduated from Georgia State University with a Bachelor's in Computer Science.  My <strong>passion</strong> is in Software Development and Android Development, but I am open to all new technologies as I want to grow as a developer.</p>
       <br><br><br>
     </div> 
-    <div class="contatiner-fluid custom" align="center">
+    <div class="contatiner-fluid custom" align="center" z-index="1">
     <iframe width="420" height="315" src="https://www.youtube.com/embed/cxwKYxcJIe0" frameborder="0" allowfullscreen> </iframe>
     </div>
     <!--END EDUCATION-->
             <!--ANIMATED TEXT-->
-    <div class="container-fluid" id="zIndex">
+    <div class="container-fluid" id="zIndex" z-index="0">
       <ul class="animatedText">
         <li>Java</li>
         <li>CSS</li>
@@ -70,7 +70,7 @@
 
     
     <!--PROJECTS-->
-    <div class="container-fluid" align="center" id="divEducation">
+    <div class="container-fluid" align="center" id="divEducation" z-index="1">
       <h1 id="headingOne">
         <a id="projects"  name="projects" aria-hidden="true"><span aria-hidden="true" ></span></a>Projects
       </h1>
@@ -86,7 +86,7 @@
     <!--END PROJECTS-->
     <hr>
     <!--EMPLOYMENT STATUS-->
-    <div class="container-fluid" align="center">
+    <div class="container-fluid" align="center" z-index="1">
       <h1 id="headingOne">
         <a id="employment" href="#employment" aria-hidden="true"><span aria-hidden="true"></span></a>Employment</h1>
       <p id="paragraph">I graduated on May 7th and am looking for a position in Software Development or Android Development.  I wish to learn new technologies, work in groups to build on myself and others, and grow as a developer.</p>
