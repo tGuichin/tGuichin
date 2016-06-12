@@ -5,7 +5,7 @@
       body{
         background:linear-gradient(to bottom,#000000 0%,#1a1a1a 25%, #000000 50%, #1a1a1a 75%, #000000 100%);
         z-index:1;
-        cursor: url(https://www.google.com/search?q=images&espv=2&biw=1600&bih=775&tbm=isch&imgil=isFmfyIM-DQ3hM%253A%253BwXtNKZpzdIFjoM%253Bhttp%25253A%25252F%25252Fwww.dailymail.co.uk%25252Ftravel%25252Ftravel_news%25252Farticle-3504412%25252FPictures-HUGE-splash-breathtaking-images-selected-winners-2016-Underwater-Photographer-Year-contest.html&source=iu&pf=m&fir=isFmfyIM-DQ3hM%253A%252CwXtNKZpzdIFjoM%252C_&usg=__0Ph_mrsB2W7Ez9hiionc4BRy_Ys%3D&ved=0ahUKEwjzk9uktKPNAhULRlIKHZS4APQQyjcILw&ei=4tBdV_OaKYuMyQKU8YKgDw#imgrc=isFmfyIM-DQ3hM%3A), auto;
+        cursor: url(https://github.com/tGuichin/tGuichin/blob/gh-pages/cursorImage.png), auto;
         overflow-x:hidden;
       }
       #paragraph{
