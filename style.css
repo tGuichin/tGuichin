@@ -4,7 +4,7 @@
       body{
         background:linear-gradient(to bottom,#000000 0%,#1a1a1a 25%, #000000 50%, #1a1a1a 75%, #000000 100%);
         z-index:1;
-        cursor: url(cursorImage.png) 2 2, auto;
+        cursor: url(href="cursorImage.png") 2 2, auto;
         overflow-x:hidden;
       }
       #paragraph{
