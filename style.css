@@ -1,6 +1,6 @@
  html{
         height:100%;
-        cursor: url(tguichin/cursorImage.png), url(cursorImage.png) 2 2, auto;
+        cursor: url(tguichin/cursorImage.png), url(cursorImage.png) 2 2, wait;
       }
       body{
         background:linear-gradient(to bottom,#000000 0%,#1a1a1a 25%, #000000 50%, #1a1a1a 75%, #000000 100%);
