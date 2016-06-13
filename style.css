@@ -8,7 +8,7 @@
         overflow-x:hidden;
       }
       .cursor{
-       cursor: url(https://github.com/tGuichin/tGuichin/blob/gh-pages/cursorImage.png), auto;
+       cursor: help, auto;
       }
       #paragraph{
         color:white;
