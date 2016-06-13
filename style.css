@@ -8,7 +8,7 @@
         overflow-x:hidden;
       }
       .cursor{
-       cursor: help;
+       cursor: crosshair;
       }
       #paragraph{
         color:white;
