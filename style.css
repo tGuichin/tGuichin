@@ -8,7 +8,7 @@
         overflow-x:hidden;
       }
       .cursor{
-       cursor: url('cursorImage.ico'), url('cursorImage.png'), default;
+       cursor: url('https://github.com/tGuichin/tGuichin/blob/gh-pages/cursorImage.ico'), url('cursorImage.png'), default;
       }
       #paragraph{
         color:white;
