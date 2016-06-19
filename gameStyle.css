@@ -1,5 +1,6 @@
 body{
   background:black;
+  background-attachment:fixed;
 }
 .container{
        background:linear-gradient(white 0%, silver 90%);
