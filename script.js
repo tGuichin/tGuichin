@@ -1,3 +1,10 @@
-function show(){
-    location.href="www.google.com";
+function show(element){
+    var evt = new window.MouseEvent('click', {
+        view: window,
+        bubbles: true,
+        cancelable: true
+    });
+
+    element.dispatchEvent(evt);
 }
+
