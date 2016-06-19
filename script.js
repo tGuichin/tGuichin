@@ -1,3 +1,3 @@
 function show(){
-    popup('href="www.google.com"');
+    location.href="www.google.com";
 }
