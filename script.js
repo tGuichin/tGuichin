@@ -1,3 +1,3 @@
 function show(){
-    prompt("are you ready to play?");
+    window.open(www.google.com);
 }
