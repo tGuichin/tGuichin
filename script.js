@@ -1,4 +1,4 @@
 function show(){
-    window.open("http://www.w3schools.com", "_self");
+    window.open("http://www.w3schools.com");
 }
 
