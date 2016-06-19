@@ -1,1 +1,9 @@
-
+body{
+  background:black;
+}
+.container{
+       background:linear-gradient(white 0%, silver 50%, grey 100%);
+       margin:auto;
+       width:500px;
+       height:500px;
+      }
