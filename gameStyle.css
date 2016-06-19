@@ -3,7 +3,7 @@ body{
 }
 .container{
        background:linear-gradient(white 0%, silver 90%);
-       margin:300px;
+       margin:auto;
        width:500px;
        height:500px;
       }
