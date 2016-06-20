@@ -1,4 +1,6 @@
 function show(){
-    window.open("game.html", "_self");
+    if(prompt("Would you like to play a game?") === "yes"){
+        window.open("game.html", "_self");
+    }
 }
 
