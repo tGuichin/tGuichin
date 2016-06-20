@@ -5,7 +5,7 @@ body{
 #container{
        background:linear-gradient(white 0%, silver 90%);
        top:300px;
-       left:50%;
-       width:900px;
-       height:900px;
+       left:500px;
+       width:500px;
+       height:500px;
       }
