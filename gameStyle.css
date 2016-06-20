@@ -3,7 +3,7 @@ body{
   background-attachment:fixed;
 }
 #container{
-       background;white;
+       background:white;
        position:absolute;
        display:block;
        margin:auto;
