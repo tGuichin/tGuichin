@@ -3,8 +3,13 @@ body{
   background-attachment:fixed;
 }
 #container{
-       background:linear-gradient(white 0%, silver 90%);
+       background;white;
+       position:absolute;
        margin:auto;
        width:500px;
        height:500px;
+       top:0;
+       bottom:0;
+       left:0;
+       right:0;
       }
