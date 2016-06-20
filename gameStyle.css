@@ -2,7 +2,7 @@ body{
   background:black;
   background-attachment:fixed;
 }
-.container{
+#container{
        background:linear-gradient(white 0%, silver 90%);
        top:300px;
        margin:auto;
