@@ -7,8 +7,7 @@ function show(){
 function pickColor(){
     var canvas = document.getElementById("canvasChange");
     var context = canvas.getContext("2d");
-    var newColor = document.getElementById("color").style.backgroundColor;
-    context.fillStyle = newColor;
-    context.fill();
-    canvas.style.background = newColor;
+    var newColor = document.getElementById("color");
+    var changeColor = newColor.className();
+    canvas.style.background = changeColor;
 }
