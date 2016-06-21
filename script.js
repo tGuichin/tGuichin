@@ -7,5 +7,5 @@ function show(){
 function pickColor(){
     var Color = document.getElementById("container");
     var newColor = document.getElementById("color").style.backgroundColor;
-    Color.style.backgroundColor = newColor;
+    Color.style.background = newColor;
 }
