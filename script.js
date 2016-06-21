@@ -8,6 +8,6 @@ window.onclick = function (ev){
     var canvas = document.getElementById("canvasChange");
     var context = canvas.getContext("2d");
     var newColor = ev.target || ev.srcElement;
-    var changeColor = newColor.background;
+    var changeColor = newColor.backgroundColor;
     canvas.style.background = changeColor;
 }
