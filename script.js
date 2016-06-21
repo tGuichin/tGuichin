@@ -5,10 +5,11 @@ function show(){
 }
 
 function pickColor(){
-    var Color = document.getElementById("canvasChange");
-    var can = Color.getContext("2d");
+    var canvas = document.getElementById("canvasChange");
+    var context = Color.getContext("2d");
     var newColor = document.getElementById("color").style.backgroundColor;
-    can.fillStyle = newColor;
-    can.fill();
+    context.fillStyle = newColor;
+    context.fill();
+    canvas.style.background = newColor;
     
 }
