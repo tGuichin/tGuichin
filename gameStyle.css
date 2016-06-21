@@ -30,6 +30,8 @@ td{
 }
 .yellow{
   background:linear-gradient(white 0%, green 40%, red 90%);
+  height:50px;
+  width:100px;
 }
 .white{
   background:white;
