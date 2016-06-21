@@ -6,7 +6,7 @@ function show(){
 
 function pickColor(){
     var canvas = document.getElementById("canvasChange");
-    var context = Color.getContext("2d");
+    var context = canvas.getContext("2d");
     var newColor = document.getElementById("color").style.backgroundColor;
     context.fillStyle = newColor;
     context.fill();
