@@ -6,6 +6,6 @@ function show(){
 
 function pickColor(){
     var Color = document.getElementsByClassName("canvasChange");
-    var newColor = document.getElementById("color");
-    Color.style.color = newColor.style.color;
+    var newColor = document.getElementById("color").style.backgroundColor;
+    Color.style.backgroundColor = newColor;
 }
