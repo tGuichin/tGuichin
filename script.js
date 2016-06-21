@@ -9,5 +9,6 @@ function pickColor(){
     var can = Color.getContext("2d");
     var newColor = document.getElementById("color").style.backgroundColor;
     can.fillStyle = newColor;
+    can.fillRect(20,20,150,100);
     
 }
