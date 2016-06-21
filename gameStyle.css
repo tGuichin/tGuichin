@@ -14,12 +14,12 @@ body{
        right:0;
        left:0;
       }
-#red{
+.red{
   background:red;
 }
-#green{
+.green{
   background:green;
 }
-#white{
+.white{
   background:white;
 }
