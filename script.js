@@ -8,6 +8,6 @@ function pickColor(){
     var canvas = document.getElementById("canvasChange");
     var context = canvas.getContext("2d");
     var newColor = document.getElementById("color");
-    var changeColor = newColor.className();
+    var changeColor = newColor.className;
     canvas.style.background = changeColor;
 }
