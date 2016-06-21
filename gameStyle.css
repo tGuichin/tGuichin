@@ -3,7 +3,7 @@ body{
   background-attachment:fixed;
 }
 td{
-  align-content:center;
+  vertical-align:center;
 }
 #container{
        position:absolute;
