@@ -4,7 +4,7 @@ function show(){
     }
 }
 
-window.onclick = function pickColor(ev){
+window.onclick = function (ev){
     var canvas = document.getElementById("canvasChange");
     var context = canvas.getContext("2d");
     var newColor = ev.srcElement.className;
