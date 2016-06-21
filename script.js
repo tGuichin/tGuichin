@@ -5,10 +5,7 @@ function show(){
 }
 
 function pickColor(){
-    prompt("Would you like to change color?");
     var Color = document.getElementsByClassName("canvasChange");
     var newColor = document.getElementById("color");
     Color.style.color = newColor.style.color;
-    
-    
 }
