@@ -28,6 +28,9 @@ td{
   height:50px;
   position:relative;
 }
+.yellow{
+  background:linear-gradient(white 0%, green 40%, red 90%);
+}
 .white{
   background:white;
   width:50px;
