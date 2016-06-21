@@ -4,10 +4,10 @@ function show(){
     }
 }
 
-function pickColor(ev){
+window.onclick = function pickColor(ev){
     var canvas = document.getElementById("canvasChange");
     var context = canvas.getContext("2d");
-    var newColor = ev.target.className;
+    var newColor = ev.srcElement.class;
     var changeColor = newColor.className;
     canvas.style.background = changeColor;
 }
