@@ -4,3 +4,10 @@ function show(){
     }
 }
 
+function pickColor(){
+    var color = document.getElementsByClassName("canvasChange");
+    newColor = document.getElementById("color");
+    color.style.color = newColor.style.color;
+    
+    
+}
