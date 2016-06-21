@@ -7,7 +7,7 @@ function show(){
 window.onclick = function (ev){
     var canvas = document.getElementById("canvasChange");
     var context = canvas.getContext("2d");
-    var newColor = ev.srcElement.backgroundColor;
-    var changeColor = newColor;
-    canvas.style.background = newColor;
+    var newColor = e.target || e.srcElement;
+    var changeColor = newColor.background;
+    canvas.style.background = changeColor;
 }
