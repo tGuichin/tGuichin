@@ -11,5 +11,7 @@ function pickColor(){
     context.fillStyle = newColor;
     context.fill();
     canvas.style.background = newColor;
+    context.style.background = newColor;
+    
     
 }
