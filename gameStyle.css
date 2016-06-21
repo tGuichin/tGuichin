@@ -2,6 +2,9 @@ body{
   background:black;
   background-attachment:fixed;
 }
+td{
+  align:center;
+}
 #container{
        position:absolute;
        display:block;
