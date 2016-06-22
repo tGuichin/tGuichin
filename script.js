@@ -4,10 +4,10 @@ function show(){
     }
 }
 
-window.onclick = function (ev){
-    var canvas = document.getElementById("canvasChange");
-    var context = canvas.getContext("2d");
-    var newColor = ev.target || ev.srcElement;
-    var changeColor = getComputedStyle(newColor).backgroundColor;
-    canvas.style.backgroundColor = changeColor;
-}
+// window.onclick = function (ev){
+//     var canvas = document.getElementById("canvasChange");
+//     var context = canvas.getContext("2d");
+//     var newColor = ev.target || ev.srcElement;
+//     var changeColor = getComputedStyle(newColor).backgroundColor;
+//     canvas.style.backgroundColor = changeColor;
+// }
