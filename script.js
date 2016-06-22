@@ -8,18 +8,18 @@ var greenValue = 0;
 var blueValue = 0;
 
 var canvas = document.getElementById("canvasChange");
-canvas.style.background = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
 function redColor(value){
     console.log(value);
-    canvas.style.background = "rgb(" + value + "," + greenValue + "," + blueValue + ")";
+    canvas.style.backgroundColor = "rgb(" + value + "," + greenValue + "," + blueValue + ")";
 } 
 function greenColor(value){
     console.log(value);
-    canvas.style.background = "rgb(" + redValue + "," + value + "," + blueValue + ")";
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + value + "," + blueValue + ")";
 }
 function blueColor(value){
     console.log(value);
-    canvas.style.background = "rgb(" + redValue + "," + greenValue + "," + value + ")";
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + value + ")";
 }
 // window.onclick = function (ev){
 //     var canvas = document.getElementById("canvasChange");
