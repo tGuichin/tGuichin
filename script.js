@@ -7,13 +7,13 @@ var redValue;
 var greenValue;
 var blueValue;
 function redColor(value){
-    
+    console.log(value);
 } 
 function greenColor(value){
-    
+    console.log(value);
 }
 function blueColor(value){
-    
+    console.log(value);
 }
 // window.onclick = function (ev){
 //     var canvas = document.getElementById("canvasChange");
