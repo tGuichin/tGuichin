@@ -11,15 +11,18 @@ var canvas = document.getElementById("canvasChange");
 canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
 function redColor(value){
     console.log(value);
-    canvas.style.backgroundColor = "rgb(" + value + "," + greenValue + "," + blueValue + ")";
+    redValue = value;
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
 } 
 function greenColor(value){
+    greenValue = value;
     console.log(value);
-    canvas.style.backgroundColor = "rgb(" + redValue + "," + value + "," + blueValue + ")";
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
 }
 function blueColor(value){
     console.log(value);
-    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + value + ")";
+    blueValue = value;
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
 }
 // window.onclick = function (ev){
 //     var canvas = document.getElementById("canvasChange");
