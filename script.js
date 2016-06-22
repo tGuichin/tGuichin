@@ -3,7 +3,18 @@ function show(){
         window.open("game.html", "_self");
     }
 }
-
+var redValue;
+var greenValue;
+var blueValue;
+function redColor(value){
+    
+} 
+function greenColor(value){
+    
+}
+function blueColor(value){
+    
+}
 // window.onclick = function (ev){
 //     var canvas = document.getElementById("canvasChange");
 //     var context = canvas.getContext("2d");
