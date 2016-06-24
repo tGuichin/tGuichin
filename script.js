@@ -13,31 +13,36 @@ function redColor(value){
     console.log(value);
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
-    rgbColor();
-    hexColor();
+    redgb(redColor);
 } 
 function greenColor(value){
     greenValue = value;
     console.log(value);
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
-    rgbColor();
-    hexColor();
+    greengb(greenValue);
 }
 function blueColor(value){
     console.log(value);
     blueValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
-    rgbColor();
-    hexColor();
+    bluegb(blueColor);
 }
-function rgbColor(){
-    var rgbText = document.getElementById("rgbColor");
-    rgbText.value = "rgb(" + redValue + ", " + greenValue + ", " + blueValue + ")"; 
+function rebgb(value){
+    var rgbText = document.getElementById("redgb");
+    rgbText.innerHTML = value; 
 }
-function hecColor(){
-    var hexText = document.getElementById("hecColor");
-    hexText.value = "hex";
+function greengb(value){
+    var rgbText = document.getElementById("greengb");
+    rgbText.innerHTML = value;
 }
+function bluegb(value){
+    var rgbText = document.getElementById("bluegb");
+    rgbText.innerHTML = value
+}
+// function hecColor(){
+//     var hexText = document.getElementById("hecColor");
+//     hexText.value = "hex";
+// }
 // window.onclick = function (ev){
 //     var canvas = document.getElementById("canvasChange");
 //     var context = canvas.getContext("2d");
