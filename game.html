@@ -13,11 +13,15 @@
     
     
     <table style="background:white;margin:auto;align:center;max-width:300px;" border="1">
+      
+      
       <tr>
         <td colspan="3" align="center">
           <b>Color Picker</b>
         </td>
       </tr>
+      
+      <!--CANVAS FOR COLOR PREVIEWING-->
       <tr>
         <td align="center" colspan="3">
           
@@ -25,6 +29,8 @@
           
         </td>
       </tr>
+      
+      <!--COLOR CELLS FOR SLIDER REPRESENTATION-->
       <tr>
         <td>
           <div style="margin:auto;background:red;width:100px;height:50px;"></div>
@@ -36,6 +42,9 @@
           <div style="margin:auto;background:blue;width:100px;height:50px;"></div>
         </td>
       </tr>
+      
+      
+      <!--COLOR SLIDERS-->
       <tr>
         <td>
           <input type="range" min="0" max="255" oninput="redColor(this.value)" id="redDrag"/>
@@ -51,6 +60,8 @@
           <input type="range" min="0" max="255" oninput="blueColor(this.value)" />
         </td>
       </tr>
+      
+      <!--RGB COLOR VALUES-->
       <tr>
         <td align="center">
           <span  id="redgb"></span>
@@ -60,6 +71,13 @@
         </td>
         <td align="center">
           <span  id="bluegb"></span>
+        </td>
+      </tr>
+      
+      <!--HEXADECIMAL COLOR VALUES-->
+      <tr>
+        <td>
+          <span id="hecShow"></span>
         </td>
       </tr>
       
