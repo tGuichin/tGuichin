@@ -37,7 +37,7 @@ function greengb(value){
 }
 function bluegb(value){
     var rgbText = document.getElementById("bluegb");
-    rgbText.innerHTML = value
+    rgbText.innerHTML = value;
 }
 // function hecColor(){
 //     var hexText = document.getElementById("hecColor");
