@@ -39,6 +39,10 @@ function bluegb(value){
     var rgbText = document.getElementById("bluegb");
     rgbText.innerHTML = value;
 }
+function changeBackground(){
+    var backgroundColor = canvas.style.backgroundColor;
+    document.body.style.backgroundColor = backgroundColor;
+}
 // function hecColor(){
 //     var hexText = document.getElementById("hecColor");
 //     hexText.value = "hex";
