@@ -13,16 +13,30 @@ function redColor(value){
     console.log(value);
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+    rgbColor();
+    hexColor();
 } 
 function greenColor(value){
     greenValue = value;
     console.log(value);
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+    rgbColor();
+    hexColor();
 }
 function blueColor(value){
     console.log(value);
     blueValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+    rgbColor();
+    hexColor();
+}
+function rgbColor(){
+    var rgbText = document.getElementById("rgbColor");
+    rgbText.value = "rgb(" + redValue + ", " + greenValue + ", " + blueValue + ")"; 
+}
+function hecColor(){
+    var hexText = document.getElementById("hecColor");
+    hexText.value = "hex";
 }
 // window.onclick = function (ev){
 //     var canvas = document.getElementById("canvasChange");
