@@ -46,8 +46,8 @@ function changeBackground(){
 }
 function hexValues(value){
     var hexValuesVar = document.getElementById("hexShow");
-    var redHex = value.toString(16);
-    hexValuesVar.innerHTML = value.toString(16);
+    var redHex = value.toString(16) + 1;
+    hexValuesVar.innerHTML = value.toString(16) + 1;
     console.log(value.toString(16));
 }
 
