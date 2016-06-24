@@ -81,7 +81,8 @@ function userInputBlue(val){
     hexValues(redValue,greenValue, blueValue);
 }
 function linearGradient(){
-    document.body.style.backgroundImage = "-webkit-linear-gradient(left, " + redValue + ", " + greenValue + ")";
+    document.body.style.backgroundImage = "-webkit-linear-gradient(left, " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
+    ")" + "rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
 }
 
 
