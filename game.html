@@ -34,19 +34,17 @@
       </tr>
       <tr>
         <td>
-          <div onscroll="redColor(this.value);">
-          <input type="range" min="0" max="255" onclick="redColor(this.value)" id="redDrag"/>
-          </div>
+          <input type="range" min="0" max="255" oninput="redColor(this.value)" id="redDrag"/>
         </td>
       
       
         <td>
-          <input type="range" min="0" max="255" onscroll="greenColor(this.value)" />
+          <input type="range" min="0" max="255" oninput="greenColor(this.value)" />
         </td>
       
       
         <td>
-          <input type="range" min="0" max="255" onscroll="blueColor(this.value)" />
+          <input type="range" min="0" max="255" oninput="blueColor(this.value)" />
         </td>
       </tr>
       <tr>
