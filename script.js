@@ -52,7 +52,8 @@ function bluegb(value){
 }
 function changeBackground(){
     var backgroundColor = canvas.style.backgroundColor;
-    document.body.style.backgroundImage = backgroundColor;
+    document.body.style.backgroundImage = null;
+    document.body.style.backgroundColor = backgroundColor;
 }
 function hexValues(valueR,valueG,valueB){
     var hexValuesVar = document.getElementById("hexShow");
@@ -80,7 +81,7 @@ function userInputBlue(val){
     hexValues(redValue,greenValue, blueValue);
 }
 function linearGradient(){
-    document.body.style.backgroundImage = "-webkit-linear-gradient(left, " + "red" + ", " + "green" + ")";
+    document.body.style.backgroundImage = "-webkit-linear-gradient(left, " + redValue + ", " + greenValue + ")";
 }
 
 
