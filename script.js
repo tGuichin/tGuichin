@@ -14,6 +14,7 @@ function redColor(value){
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
+    hexValues();
 } 
 function greenColor(value){
     greenValue = value;
@@ -43,16 +44,48 @@ function changeBackground(){
     var backgroundColor = canvas.style.backgroundColor;
     document.body.style.backgroundColor = backgroundColor;
 }
-document.getElementById("redDrag").onscroll = function(){
-    redValue = document.getElementById("redDrag").value;
-    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
-    redgb(redValue);
+function hexValues(){
+    var hexValuesVar = document.getElementById("hexShow");
+    var redHex = "";
+    if((var temp = redValue % 16) < 10){
+        redHex.concat(temp + "");
+    }
+    if((var temp = redValue % 16) > 9){
+        switch(temp){
+            case 10:
+                    redHex.concat("A");
+                    break;
+            case 11:
+                    redHex.concat("B");
+                    break;
+            case 12:
+                    redHex.concat("C");
+                    break;
+            case 13:
+                    redHex.concat("D");
+                    break;
+            case 14:
+                    redHex.concat("E");
+                    break;
+            case 15:
+                    redHex.concat("F");
+                    break;
+        }
+        hexValuesVar.innerHTML = redHex;
+    }
 }
-window.onscroll = function(){
-    redValue = document.getElementById("redDrag").value;
-    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
-    redgb(redValue);
-}
+
+
+// document.getElementById("redDrag").onscroll = function(){
+//     redValue = document.getElementById("redDrag").value;
+//     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+//     redgb(redValue);
+// }
+// window.onscroll = function(){
+//     redValue = document.getElementById("redDrag").value;
+//     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+//     redgb(redValue);
+// }
 // function hecColor(){
 //     var hexText = document.getElementById("hecColor");
 //     hexText.value = "hex";
