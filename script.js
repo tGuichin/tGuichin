@@ -71,6 +71,7 @@ function hexValues(){
                     redHex.concat("F");
                     break;
         }
+        console.log(redHex);
         hexValuesVar.innerHTML = redHex;
     }
 }
