@@ -77,13 +77,13 @@
       <!--MANUAL USER INPUT FOR RGB COLORS-->
       <tr>
         <td>
-          <input type="text" style="text-align:center;" oninput="userInputRed(this.value)" id="redUserText"/>
+          <input type="text" style="text-align:center;" oninput="userInputRed(this.value)" placeholder="redvalue" id="redUserText"/>
         </td>
         <td>
-          <input type="text" style="text-align:center;" oninput="userInputGreen(this.value)" id="greenUserText"/>
+          <input type="text" style="text-align:center;" oninput="userInputGreen(this.value)" placeholder="greenvalue" id="greenUserText"/>
         </td>
         <td>
-          <input type="text" style="text-align:center;" oninput="userInputBlue(this.value)" id="blueUserText"/>
+          <input type="text" style="text-align:center;" oninput="userInputBlue(this.value)" placeholder="bluevalue" id="blueUserText"/>
         </td>
       </tr>
       
@@ -95,7 +95,10 @@
       </tr>
       
       <tr>
-        <td colspan="3" align="center">
+        <td width="50%" align="center">
+          <input type="text" id="direction" placeholder="direction"/>
+        </td>
+        <td align="center">
           <button onclick="linearGradient()">Linear Gradient</button>
         </td>
       </tr>
