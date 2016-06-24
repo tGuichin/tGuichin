@@ -86,7 +86,7 @@ function linearGradient(){
         document.body.style.backgroundImage = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
         ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
     }else{
-        window.alert("Please enter a direction(left, right, top, bottom");
+        window.alert("Please enter a direction(left, right, top, bottom)");
     }
 }
 
