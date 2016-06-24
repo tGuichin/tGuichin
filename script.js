@@ -13,7 +13,7 @@ function redColor(value){
     console.log(value);
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
-    redgb(redColor);
+    redgb(redValue);
 } 
 function greenColor(value){
     greenValue = value;
@@ -25,7 +25,7 @@ function blueColor(value){
     console.log(value);
     blueValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
-    bluegb(blueColor);
+    bluegb(blueValue);
 }
 function rebgb(value){
     var rgbText = document.getElementById("redgb");
