@@ -14,19 +14,21 @@ function redColor(value){
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
-    hexValues(redValue);
+    hexValues(redValue,greenValue, blueValue);
 } 
 function greenColor(value){
     greenValue = value;
     console.log(value);
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     greengb(greenValue);
+    hexValues(redValue,greenValue, blueValue);
 }
 function blueColor(value){
     console.log(value);
     blueValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     bluegb(blueValue);
+    hexValues(redValue,greenValue, blueValue);
 }
 function redgb(value){
     var rgbText = document.getElementById("redgb");
@@ -44,9 +46,10 @@ function changeBackground(){
     var backgroundColor = canvas.style.backgroundColor;
     document.body.style.backgroundColor = backgroundColor;
 }
-function hexValues(value){
+function hexValues(valueR,valueG,valueB){
     var hexValuesVar = document.getElementById("hexShow");
-    hexValuesVar.innerHTML = parseInt(value).toString(16);
+    hexValuesVar.innerHTML = "#" + parseInt(valueR).toString(16).toUpperCase() + parseInt(valueG).toString(16).toUpperCase()
+    + parseInt(valueB).toString(16).toUpperCase();
     console.log(value.toString(16));
 }
 
