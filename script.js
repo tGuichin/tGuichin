@@ -43,6 +43,11 @@ function changeBackground(){
     var backgroundColor = canvas.style.backgroundColor;
     document.body.style.backgroundColor = backgroundColor;
 }
+document.getElementById("redDrag").onscroll = function(){
+    redValue = document.getElementById("redDrag").value;
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+    redgb(redValue);
+}
 // function hecColor(){
 //     var hexText = document.getElementById("hecColor");
 //     hexText.value = "hex";
