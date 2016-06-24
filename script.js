@@ -48,6 +48,7 @@ function hexValues(){
     var hexValuesVar = document.getElementById("hexShow");
     var redHex = redValue.toString(16);
     hexValuesVar.innerHTML = redValue.toString(16);
+    console.log(redValue.toString(16));
 }
 
 
