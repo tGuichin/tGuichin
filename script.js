@@ -47,30 +47,30 @@ function changeBackground(){
 function hexValues(){
     var hexValuesVar = document.getElementById("hexShow");
     var redHex = redValue.toString(16);
-    if((temp = redValue % 16) < 10){
-        redHex.concat(temp + "");
-    }
-    if((temp = redValue % 16) > 9){
-        switch(temp){
-            case 10:
-                    redHex.concat("A");
-                    break;
-            case 11:
-                    redHex.concat("B");
-                    break;
-            case 12:
-                    redHex.concat("C");
-                    break;
-            case 13:
-                    redHex.concat("D");
-                    break;
-            case 14:
-                    redHex.concat("E");
-                    break;
-            case 15:
-                    redHex.concat("F");
-                    break;
-        }
+    // if((temp = redValue % 16) < 10){
+    //     redHex.concat(temp + "");
+    // }
+    // if((temp = redValue % 16) > 9){
+    //     switch(temp){
+    //         case 10:
+    //                 redHex.concat("A");
+    //                 break;
+    //         case 11:
+    //                 redHex.concat("B");
+    //                 break;
+    //         case 12:
+    //                 redHex.concat("C");
+    //                 break;
+    //         case 13:
+    //                 redHex.concat("D");
+    //                 break;
+    //         case 14:
+    //                 redHex.concat("E");
+    //                 break;
+    //         case 15:
+    //                 redHex.concat("F");
+    //                 break;
+    //     }
         console.log(redHex);
         hexValuesVar.innerHTML = redHex;
     }
