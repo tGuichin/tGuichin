@@ -50,7 +50,6 @@ function hexValues(valueR,valueG,valueB){
     var hexValuesVar = document.getElementById("hexShow");
     hexValuesVar.innerHTML = "#" + parseInt(valueR).toString(16).toUpperCase() + parseInt(valueG).toString(16).toUpperCase()
     + parseInt(valueB).toString(16).toUpperCase();
-    console.log(value.toString(16));
 }
 
 
