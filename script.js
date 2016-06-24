@@ -81,8 +81,13 @@ function userInputBlue(val){
     hexValues(redValue,greenValue, blueValue);
 }
 function linearGradient(){
-    document.body.style.backgroundImage = "-webkit-linear-gradient(left, " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
-    ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
+    var direction = document.getElementById("direction").value;
+    if(direction.length > 0){
+        document.body.style.backgroundImage = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
+        ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
+    }else{
+        popup("Please enter a direction(left, right, top, bottom");
+    }
 }
 
 
