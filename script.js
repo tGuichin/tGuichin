@@ -52,7 +52,6 @@ function hexValues(valueR,valueG,valueB){
     + parseInt(valueB).toString(16).toUpperCase();
 }
 function userInput(val){
-    console.log(value);
     redValue = val;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
