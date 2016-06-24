@@ -52,6 +52,8 @@ function hexValues(valueR,valueG,valueB){
     + parseInt(valueB).toString(16).toUpperCase();
 }
 function userInputRed(val){
+    var drag = document.getElementById("redDrag");
+    drag.value = val;
     redValue = val;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
