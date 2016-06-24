@@ -82,7 +82,7 @@ function userInputBlue(val){
 }
 function linearGradient(){
     document.body.style.backgroundImage = "-webkit-linear-gradient(left, " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
-    ")" + "rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
+    ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
 }
 
 
