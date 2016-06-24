@@ -7,9 +7,9 @@ var redValue = 0;
 var greenValue = 0;
 var blueValue = 0;
 
-var redDrag = document.getElementById("redDrag").value = 0;
-var greenDrag = document.getElementById("greenDrag").value = 0;
-var blueDrag = document.getElementById("blueDrag").value = 0;
+// var redDrag = document.getElementById("redDrag").value = 0;
+// var greenDrag = document.getElementById("greenDrag").value = 0;
+// var blueDrag = document.getElementById("blueDrag").value = 0;
 
 
 var canvas = document.getElementById("canvasChange");
