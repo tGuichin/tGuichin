@@ -47,10 +47,10 @@ function changeBackground(){
 function hexValues(){
     var hexValuesVar = document.getElementById("hexShow");
     var redHex = "";
-    if((var temp = redValue % 16) < 10){
+    if((temp = redValue % 16) < 10){
         redHex.concat(temp + "");
     }
-    if((var temp = redValue % 16) > 9){
+    if((temp = redValue % 16) > 9){
         switch(temp){
             case 10:
                     redHex.concat("A");
