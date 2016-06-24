@@ -80,7 +80,7 @@ function userInputBlue(val){
     hexValues(redValue,greenValue, blueValue);
 }
 function linearGradient(){
-    document.body.style.backgroundColor = "-webkit-linear-gradient(left, " + redValue + ", " + greenValue + ", " + blueValue + ")";
+    document.body.style.backgroundColor = "-webkit-linear-gradient(to left, " + redValue + ", " + greenValue + ", " + blueValue + ")";
 }
 
 
