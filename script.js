@@ -51,10 +51,22 @@ function hexValues(valueR,valueG,valueB){
     hexValuesVar.innerHTML = "#" + parseInt(valueR).toString(16).toUpperCase() + parseInt(valueG).toString(16).toUpperCase()
     + parseInt(valueB).toString(16).toUpperCase();
 }
-function userInput(val){
+function userInputRed(val){
     redValue = val;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
+    hexValues(redValue,greenValue, blueValue);
+}
+function userInputGreen(val){
+    greenValue = val;
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+    greengb(redValue);
+    hexValues(redValue,greenValue, blueValue);
+}
+function userInputBlue(val){
+    blueValue = val;
+    canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
+    bluegb(redValue);
     hexValues(redValue,greenValue, blueValue);
 }
 
