@@ -16,7 +16,7 @@ var canvas = document.getElementById("canvasChange");
 canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
 function redColor(value){
     console.log(value);
-    var redText = document.getElementByID("redUserText").value = value;
+    var redText = document.getElementById("redUserText").value = value;
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
@@ -24,7 +24,7 @@ function redColor(value){
 } 
 function greenColor(value){
     console.log(value);
-    var greenText = document.getElementByID("greenUserText").value = value;
+    var greenText = document.getElementById("greenUserText").value = value;
     greenValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     greengb(greenValue);
@@ -32,7 +32,7 @@ function greenColor(value){
 }
 function blueColor(value){
     console.log(value);
-    var blueText = document.getElementByID("blueUserText").value = value;
+    var blueText = document.getElementById("blueUserText").value = value;
     blueValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     bluegb(blueValue);
@@ -78,6 +78,9 @@ function userInputBlue(val){
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     bluegb(redValue);
     hexValues(redValue,greenValue, blueValue);
+}
+function linearGradient(){
+    
 }
 
 
