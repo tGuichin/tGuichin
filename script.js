@@ -1,6 +1,6 @@
 function show(){
     if(prompt("Would you like to play a game?") === "yes"){
-        window.open("game.html", "_self");
+        window.open("colorPicker.html", "_self");
     }
 }
 var redValue = 0;
