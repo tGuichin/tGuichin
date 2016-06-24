@@ -27,7 +27,7 @@ function blueColor(value){
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     bluegb(blueValue);
 }
-function rebgb(value){
+function redgb(value){
     var rgbText = document.getElementById("redgb");
     rgbText.innerHTML = value; 
 }
