@@ -46,7 +46,7 @@ function changeBackground(){
 }
 function hexValues(){
     var hexValuesVar = document.getElementById("hexShow");
-    var redHex = redvalue.toString(16);
+    var redHex = redValue.toString(16);
     if((temp = redValue % 16) < 10){
         redHex.concat(temp + "");
     }
