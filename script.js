@@ -14,7 +14,7 @@ function redColor(value){
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
-    hexValues();
+    hexValues(redValue);
 } 
 function greenColor(value){
     greenValue = value;
@@ -44,11 +44,11 @@ function changeBackground(){
     var backgroundColor = canvas.style.backgroundColor;
     document.body.style.backgroundColor = backgroundColor;
 }
-function hexValues(){
+function hexValues(value){
     var hexValuesVar = document.getElementById("hexShow");
-    var redHex = redValue.toString(16);
-    hexValuesVar.innerHTML = redValue.toString(16);
-    console.log(redValue.toString(16));
+    var redHex = value.toString(16);
+    hexValuesVar.innerHTML = value.toString(16);
+    console.log(value.toString(16));
 }
 
 
