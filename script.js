@@ -16,20 +16,23 @@ var canvas = document.getElementById("canvasChange");
 canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
 function redColor(value){
     console.log(value);
+    var redText = document.getElementByID("redUserText").value = value;
     redValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     redgb(redValue);
     hexValues(redValue,greenValue, blueValue);
 } 
 function greenColor(value){
-    greenValue = value;
     console.log(value);
+    var greenText = document.getElementByID("greenUserText").value = value;
+    greenValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     greengb(greenValue);
     hexValues(redValue,greenValue, blueValue);
 }
 function blueColor(value){
     console.log(value);
+    var blueText = document.getElementByID("blueUserText").value = value;
     blueValue = value;
     canvas.style.backgroundColor = "rgb(" + redValue + "," + greenValue + "," + blueValue + ")";
     bluegb(blueValue);
