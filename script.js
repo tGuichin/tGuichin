@@ -81,10 +81,28 @@ function userInputBlue(val){
     hexValues(redValue,greenValue, blueValue);
 }
 function linearGradient(){
-    var direction = document.getElementById("direction").value;
-    if(direction.length > 0){
-        document.body.style.backgroundImage = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
-        ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
+    var direction = document.getElementById("direction").value.toLowerCase();
+    if(direction === "bottom" || direction === "top" || direction === "left" || direction === "right"){
+        var animate = window.webkitRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || window.mozRequestAnimationFrame;
+        animation();
+        function animation(){
+            document.body.style.backgroundImage = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
+            ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
+            redValue += 33;
+            greenValue += 22;
+            blueValue += 11;
+            if(blueValue > 255)
+            {
+                blueValue = 0;   
+            }
+            if(redValue > 255){
+                redValue = 0;
+            }
+            if(greenValue > 255){
+                greenValue = 0;
+            }
+            animate(animation());
+        }
     }else{
         window.alert("Please enter a direction(left, right, top, bottom)");
     }
