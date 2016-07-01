@@ -83,7 +83,7 @@ function userInputBlue(val){
 function linearGradient(){
     var direction = document.getElementById("direction").value.toLowerCase();
     if(direction === "bottom" || direction === "top" || direction === "left" || direction === "right"){
-        var animate = window.RequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || window.mozRequestAnimationFrame;
+        var animate = window.requestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || window.mozRequestAnimationFrame;
         animation();
         function animation(){
             document.body.style.backgroundImage = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
