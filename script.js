@@ -102,6 +102,7 @@ function linearGradient(){
                 greenValue = 0;
             }
             cancelAnimationFrame(animation);
+            setTimeout(animation, 5000);
             animate(animation);
         }
     }else{
