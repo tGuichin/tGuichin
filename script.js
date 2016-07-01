@@ -86,6 +86,7 @@ function linearGradient(){
         var animate = window.requestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || window.mozRequestAnimationFrame;
         animation();
         function animation(){
+            clearTimeout(animation);
             document.body.style.backgroundImage = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
             ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
             redValue += 33;
