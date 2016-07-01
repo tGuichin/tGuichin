@@ -101,7 +101,7 @@ function linearGradient(){
             if(greenValue > 255){
                 greenValue = 0;
             }
-            animate(animation());
+            animate(animation);
         }
     }else{
         window.alert("Please enter a direction(left, right, top, bottom)");
