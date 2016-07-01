@@ -103,7 +103,6 @@ function linearGradient(){
             }
         
             setTimeout(animation, 5000);
-            animation();
         }
     }else{
         window.alert("Please enter a direction(left, right, top, bottom)");
