@@ -101,6 +101,7 @@ function linearGradient(){
             if(greenValue > 255){
                 greenValue = 0;
             }
+            setTimeout(function(){cancelAnimationFrame(animation)}, 2000);
             animate(animation);
         }
     }else{
