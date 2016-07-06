@@ -110,6 +110,9 @@ function linearGradient(){
     }
 }
 
+function gameClick(){
+    window.open("gameAnim.html", "_self");
+}
 
 // document.getElementById("redDrag").onscroll = function(){
 //     redValue = document.getElementById("redDrag").value;
