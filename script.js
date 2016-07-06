@@ -109,10 +109,10 @@ function linearGradient(){
         window.alert("Please enter a direction(left, right, top, bottom)");
     }
 }
-
 function gameClick(){
     window.open("gameAnim.html", "_self");
 }
+window.onclick
 
 // document.getElementById("redDrag").onscroll = function(){
 //     redValue = document.getElementById("redDrag").value;
