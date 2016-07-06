@@ -112,14 +112,7 @@ function linearGradient(){
 function gameClick(){
     window.open("gameAnim.html", "_self");
 }
-window.onkeypress = function(event){
-    var key = event.which;
-    var block = document.getElementById("dabMove");
-    if(key === '39'){
-        block.style.left += 10 + "px";
-        requestAnimationFrame(this);
-    }
-}
+
 
 // document.getElementById("redDrag").onscroll = function(){
 //     redValue = document.getElementById("redDrag").value;
