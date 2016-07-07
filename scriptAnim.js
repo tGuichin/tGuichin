@@ -4,7 +4,6 @@ function keyPress(event){
     console.log("clicking right" + key);
     if(key === '39'){
         block.style.left += 10 + "px";
-        requestAnimationFrame(this);
         console.log("clicking right" + key);
     }
 }
