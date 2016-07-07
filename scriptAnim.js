@@ -1,4 +1,4 @@
-window.onkeydown = keypress;
+window.onkeydown = keyPress;
 function keyPress(event){
     var key = event.keyCode;
     var block = document.getElementById("dabMove");
