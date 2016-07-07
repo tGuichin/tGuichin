@@ -1,8 +1,8 @@
 function keyPress(event){
-    var key = (window.event) ? event.keyCode : event.which;
+    var key = String.fromCharCode(event.keyCode);
     var block = document.getElementById("dabMove");
     
-    if(event.keyCode == "D"){
+    if(key == "d"){
         block.style.left += 10 + "px";
         console.log("clicking right" + key);
     }
