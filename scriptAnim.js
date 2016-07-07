@@ -8,6 +8,6 @@ function keyPress(event){
         console.log("clicking right" + key);
     }
 }
-window.onkeydown = keyPress;
+
 
 setInterval(keyPress,1);
