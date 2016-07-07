@@ -1,5 +1,5 @@
 function keyPress(event){
-    var key = eventCode;
+    var key = event.keyCode;
     var block = document.getElementById("dabMove");
     console.log(key)
     if(key === '39'){
