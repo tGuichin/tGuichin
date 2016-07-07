@@ -1,4 +1,4 @@
-window.onkeydown = keyPress;
+
 function keyPress(event){
     var key = event.keyCode || event.which;
     var block = document.getElementById("dabMove");
@@ -8,5 +8,6 @@ function keyPress(event){
         console.log("clicking right" + key);
     }
 }
+window.onkeydown = keyPress;
 
 setInterval(keyPress,1);
