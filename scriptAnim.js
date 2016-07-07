@@ -1,4 +1,4 @@
-window.onkeypress = function(event){
+function keyPress(event){
     var key = event.which;
     var block = document.getElementById("dabMove");
     console.log("clicking right" + key);
