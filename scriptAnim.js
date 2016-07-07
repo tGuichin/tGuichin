@@ -1,4 +1,4 @@
-window.onkeypress = function keyPress(event){
+window.onkeypress = function(event){
     var key = event.which;
     var block = document.getElementById("dabMove");
     if(key === '39'){
