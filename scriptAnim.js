@@ -10,4 +10,4 @@ function keyPress(event){
 }
 
 
-setInterval(keyPress,1);
+
