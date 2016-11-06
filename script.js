@@ -87,7 +87,7 @@ function linearGradient(){
         animation();
         function animation(){
             clearTimeout(animation);
-            document.body.style.background = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
+            document.body.style.backgroundImage = "-webkit-linear-gradient(" + direction + ", " + "rgb(" + redValue + ", " + greenValue + ", " + blueValue +
             ")" + ", rgb(" + greenValue + ", " + redValue + ", " + blueValue + "))";
             redValue += 33;
             greenValue += 22;
